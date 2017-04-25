@@ -1,0 +1,30 @@
+body {
+    background: #c21500; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #c21500 , #ffc500); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#wrapper {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 800px;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+th {
+  color: white;
+  background-color:#07093F;
+  padding:10px;
+}
+th , td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+h1 {
+  color:white;
+  text-align: center;
+  text-shadow: 2px 2px #808080;
+  margin-top: 60px;
+}

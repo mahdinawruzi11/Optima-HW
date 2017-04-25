@@ -1,0 +1,67 @@
+body, html {
+  min-height: 100%;
+}
+body {
+  background-image: url(/portfolio/img/black-wallpaper-23.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headtext {
+  width: 100%;
+  max-width: 960px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 0 rgb(0, 0, 0,.2);
+  margin: 120px auto;
+}
+.img {
+  width: 216px;
+  height: 384px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  float: right;
+  margin: 120px 50px 100px 20px;
+}
+.bodytext {
+  width: 100%;
+  max-width: 1800px;
+  font-family: 'Great Vibes', cursive;
+  /*font-size: 700px;*/
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 0 rgb(0, 0, 0,.2);
+  /*margin: 120px auto;*/
+}
+.about {
+  width: 70%;
+  height: auto;
+  font-family: 'Great Vibes', cursive;
+  /*font-size: 600px;*/
+  color: white;
+  text-align: center justify;
+  text-shadow: 1px 1px 0 rgb(0, 0, 0,.2);
+  float: left;
+  margin: auto auto 100px 50px;
+  border-width:medium;
+  border-color: red;
+  background-color: #757F9A;
+  padding:10px;
+}
+.contact {
+  color: white;
+  width: 70%;
+  height: auto;
+  font-family: 'Great Vibes', cursive;
+  /*font-size: 600px;*/
+  color: white;
+  text-align: center justify;
+  text-shadow: 1px 1px 0 rgb(0, 0, 0,.2);
+  float: left;
+  margin: auto auto 100px 50px;
+  background-color: #757F9A;
+  padding: 10px;
+}

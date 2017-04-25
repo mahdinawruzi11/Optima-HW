@@ -1,0 +1,20 @@
+.one {
+  text-align: center;
+  font-size: 50px;
+}
+.center {
+  text-align: center;
+}
+.all {
+  background-color: #E6DADA;
+  margin: 80px;
+  padding: 60px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #E6DADA;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
