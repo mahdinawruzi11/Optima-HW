@@ -1,0 +1,53 @@
+body, html {
+  min-height: 100%;
+}
+body {
+  background-image: url(/portfolio/img/black-wallpaper-23.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu {
+  background-color: rgba(30,30,30,0.57);
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.headtext {
+  width: 100%;
+  max-width: 960px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 100px;
+  color: white;
+  text-shadow: 1px 1px 0 rgb(0, 0, 0,.2);
+  margin: 120px auto;
+  text-align: center;
+}
+.img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 10px;
+  float: right;
+
+}
+.bodytext {
+  width: 100%;
+  /*max-width: 1800px;*/
+  font-family: 'Great Vibes', cursive;
+  /*font-size: 700px;*/
+  color: white;
+  text-align: justify;
+  text-shadow: 1px 1px 0 rgb(0, 0, 0,.2);
+  padding: 20px;
+  line-height: 60px;
+}
+
+.imgdiv {
+  background-color: rgba(30,30,30,0.77);
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  bottom: 5px;
+  float: left;
+}
