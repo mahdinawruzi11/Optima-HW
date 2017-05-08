@@ -6,15 +6,32 @@
   text-align: center;
 }
 .all {
-  background-color: #E6DADA;
+  background-color: #abbaab;
   margin: 80px;
   padding: 60px;
   border: solid;
   border-radius: 10px;
-  border-color: #E6DADA;
+  border-color: #abbaab;
 }
 .img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.persian {
+  direction: rtl;
+  line-height: 200%;
+  text-align: justify;
+}
+@media only screen and (max-width: 500px) {
+    .img {
+        width: 100px;
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .img {
+        width: 400px;
+        height: 400px;
+    }
 }
